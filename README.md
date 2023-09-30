@@ -11,11 +11,11 @@ To download the data [Click here](https://www.kaggle.com/datasets/venky73/spam-m
 
 #### Acurracy of All Models
 
-- SVC - 75%(Underfit)
+- SVC - 97%
 - SGDClassifier - 97.6%
 - GaussianNB - 96%
 
 #### Follow Up of the Project
 
-- As you can see from the Accuracies the SVC model underfits the data very much so we need to inrease the value of C.
+- As you can see from the accuracies the SVC model performs the best according to its confusion matrix.
 - We could train the data on even more models to check their accuracies such as DecisionTreeClassifier,LogisticRegression etc.
